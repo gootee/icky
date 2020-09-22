@@ -1,0 +1,142 @@
+@import url('reset.css');
+
+$base-color: #c6538c;
+$nav-color:#0B9ED9;
+$card-color: #032CA6;
+
+.Book-Review-|-Global-Citizen-1-hex { color: #F25CA2; }
+.Book-Review-|-Global-Citizen-2-hex { color: #0433BF; }
+.Book-Review-|-Global-Citizen-3-hex { color: #032CA6; }
+.Book-Review-|-Global-Citizen-4-hex { color: #021859; }
+.Book-Review-|-Global-Citizen-5-hex { color: #0B9ED9; }
+
+.App {
+  background-color: $nav-color;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  font-size: x-large;
+  // margin: 0 0 3px 0;
+  font-weight: 700;
+}
+
+Nav {
+  height: 50px;
+  display: flex;
+  align-items: center;
+
+  .logo {
+    margin: 5px;
+    height: 40px;
+  }
+
+  h2 {
+    font-size: x-large;
+    font-weight: 700;
+    margin: 5px;
+  }
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-box {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  align-items: center;
+
+  .search-title {
+    margin: 5px 0;
+  }
+
+  .search-param {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+
+    .param-label {
+      margin: 0 4px 0 0;
+    }    
+  }
+
+  .search-button {
+    margin: 20px auto }
+}
+
+.businesses {
+  .business-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    flex-wrap: wrap;
+
+    .business {
+      margin: 10px;
+      height: 275px;
+      width: 400px;
+      list-style-type: none;
+      // background-color: rgb(165, 147, 42);
+      background-color: $card-color;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+
+      .business-heading {
+        // min-height: 2em;
+        height: 45px;
+        margin: 10px;
+        color: white;
+        display: flex;
+        align-items: center;
+      }
+
+      .business-body {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        // margin: 10px 0;
+        height: 200px;
+
+        .body-left {
+          width: 175px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          margin: 0 10px 0 10px;
+          color: white;
+
+
+
+          .yelp-logo {
+            margin: 15px 0 0 0;
+            width: 50px;
+          }
+        }
+
+        .body-right {
+          margin: 10px;
+          .business-image {
+            max-width: 175px;
+            max-height: 175px;
+          }
+        }
+      }
+
+      // .business-bottom {
+      //   display: flex;
+      //   flex-direction: row;
+      //   justify-content: space-between;
+      //   margin: 10px;
+      //   .yelp-logo {
+      //     width: 50px;
+      //   }        
+      // }
+    }
+  }
+}

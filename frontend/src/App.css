@@ -1,0 +1,191 @@
+@import url("reset.css");
+.Book-Review-|-Global-Citizen-1-hex {
+  color: #F25CA2;
+}
+
+.Book-Review-|-Global-Citizen-2-hex {
+  color: #0433BF;
+}
+
+.Book-Review-|-Global-Citizen-3-hex {
+  color: #032CA6;
+}
+
+.Book-Review-|-Global-Citizen-4-hex {
+  color: #021859;
+}
+
+.Book-Review-|-Global-Citizen-5-hex {
+  color: #0B9ED9;
+}
+
+.App {
+  background-color: #0B9ED9;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  font-size: x-large;
+  font-weight: 700;
+}
+
+Nav {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+Nav .logo {
+  margin: 5px;
+  height: 40px;
+}
+
+Nav h2 {
+  font-size: x-large;
+  font-weight: 700;
+  margin: 5px;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.search-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 400px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.search-box .search-title {
+  margin: 5px 0;
+}
+
+.search-box .search-param {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 5px 0;
+}
+
+.search-box .search-param .param-label {
+  margin: 0 4px 0 0;
+}
+
+.search-box .search-button {
+  margin: 20px auto;
+}
+
+.businesses .business-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.businesses .business-list .business {
+  margin: 10px;
+  height: 275px;
+  width: 400px;
+  list-style-type: none;
+  background-color: #032CA6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.businesses .business-list .business .business-heading {
+  height: 45px;
+  margin: 10px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.businesses .business-list .business .business-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 200px;
+}
+
+.businesses .business-list .business .business-body .body-left {
+  width: 175px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 10px 0 10px;
+  color: white;
+}
+
+.businesses .business-list .business .business-body .body-left .yelp-logo {
+  margin: 15px 0 0 0;
+  width: 50px;
+}
+
+.businesses .business-list .business .business-body .body-right {
+  margin: 10px;
+}
+
+.businesses .business-list .business .business-body .body-right .business-image {
+  max-width: 175px;
+  max-height: 175px;
+}
+/*# sourceMappingURL=App.css.map */

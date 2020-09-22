@@ -1,0 +1,1 @@
+fake test2.js content
